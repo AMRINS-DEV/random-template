@@ -1,0 +1,95 @@
+#nav ul li:hover
+{
+    background-color: #1C7671;
+}
+#nav ul li:hover a
+{
+    color: #fff;
+}
+
+header .contact-btn:hover
+{
+    transition: .3s linear;
+    background: transparent;
+    border: 2px solid #1C7671;
+    color: #1C7671;
+}
+.collaborate .right button:nth-of-type(1):hover
+{
+    transition: .3s linear;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.collaborate .right button:nth-of-type(2):hover
+{
+    transition: .3s linear;
+    background: #fff;
+    color: #1C7671;
+}
+
+.collaborate .right button:nth-of-type(2):hover
+{
+    transition: .3s linear;
+    background: #fff;
+    color: #1C7671;
+}
+
+footer a:hover
+{
+    transition: .3s linear;
+    background: transparent;
+    border: 2px solid #1C7671;
+    color: #1C7671;
+}
+
+
+
+
+.contact-wrapper .right div button:hover
+{
+    transition: .3s linear;
+    border: solid 2px #1C7671;
+    color: #1C7671;
+}
+
+
+
+.animateAll {
+    -webkit-animation: animateAll .8s linear;
+    animation: animateAll .8s linear;
+    display: block;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s
+}
+
+.animateH1,.animateIMG {
+    -webkit-animation: animateH1 .8s linear;
+    animation: animateH1 .8s linear;
+    position: relative
+}
+
+.animateIMG {
+    -webkit-animation: animateIMG .8s linear;
+    animation: animateIMG .8s linear
+}
+@keyframes animateAll {
+    0% {
+        -webkit-transform: scale(.5);
+        transform: scale(.5)
+    }
+}
+
+@keyframes animateH1 {
+    0% {
+        transform: translateY(50%)
+    }
+}
+@keyframes animateIMG {
+    0% {
+        transform: translateY(50%)
+    }
+}
+html {
+	scroll-behavior: smooth;
+}

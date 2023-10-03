@@ -1,0 +1,633 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Oswald';
+}
+
+body *::-webkit-scrollbar
+{
+  scroll-behavior: smooth;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+
+p{
+  font-family: 'Ubuntu';
+  color: #1C7671;
+}
+
+button {
+  cursor: pointer;
+}
+
+#nav {
+  
+  display: flex;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+#nav h1 {
+  font-size: 1.7rem;
+  color: #1C7671;
+}
+
+#nav ul {
+  list-style-type: none;
+  
+  display: flex;
+  gap: 0 30px;
+}
+#nav ul li 
+{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav ul li a {
+  color: #1C7671;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 7px;
+}
+
+header {
+  
+  display: flex;
+  height: 100vh;
+  width: 100%;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+header .left {
+  width: 46%;
+}
+
+header .left .cover-1 {
+  width: 100%;
+  height: 100%;
+}
+
+header .left .cover-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+header .right {
+  width: 46%;
+}
+
+header .right .cover-2 {
+  width: 100%;
+  height: 40%;
+}
+
+header .right .cover-2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+header .right .content {
+  height: 60%;
+}
+
+header .right .content h1 {
+  color: #1C7671;
+  font-size: 3rem;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+header .right .content p {
+  line-height: 2;
+  margin-top: 30px;
+  font-size: 1.09rem;
+  font-weight: 800;
+  color: #4e4e4e;
+}
+
+header .right .content .btn {
+  margin-top: 30px;
+}
+
+header .contact-btn {
+  width: 180px;
+  height: 70px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #1C7671;
+  border: none;
+}
+
+.services {
+  margin: 50px 0;
+}
+
+.services .top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+  display: flex;
+          justify-content: space-between;
+}
+
+.services .top .serv-analitics {
+  
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 0 50px;
+}
+
+.services .top .serv-analitics h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #12524e;
+}
+
+.services .top .serv-analitics h4 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #1C7671;
+}
+
+.services .top .serv-desc h1 {
+  font-size: 2.8rem;
+  color: #12524e;
+  text-align: right;
+}
+
+.services .bottom {
+  
+  display: flex;
+          justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.services .bottom img {
+  width: 300px;
+  height: 400px;
+}
+
+.services .bottom h1 {
+  color: #12524e;
+  font-size: 1.7rem;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.services .bottom p {
+  text-align: right;
+}
+
+.how-we-work {
+  
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+          justify-content: space-between;
+  margin: 100px 0;
+}
+
+.how-we-work .hww-contact {
+  height: 80%;
+  
+  display: flex;
+  min-width: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          justify-content: space-between;
+}
+
+.how-we-work .hww-contact h1 {
+  color: #12524e;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+.how-we-work .hww-contact p {
+  line-height: 2;
+  font-weight: 400;
+}
+
+.how-we-work .hww-contact button {
+  width: 150px;
+  height: 60px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #1C7671;
+  border: none;
+}
+
+.how-we-work .process {
+  height: 80%;
+  width: 60%;
+  
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.how-we-work .process div {
+  min-width: 50%;
+}
+
+.how-we-work .process div h1 {
+  color: #12524e;
+}
+
+.how-we-work .process div p {
+  line-height: 2;
+}
+
+.creative-process {
+  margin: 50px;
+  height: 110vh;
+}
+
+.creative-process .top {
+  
+  display: flex;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20%;
+}
+
+.creative-process .top h1 {
+  font-size: 2rem;
+  color: #12524e;
+}
+
+.creative-process .top p {
+  line-height: 1.7;
+}
+
+.creative-process .bottom {
+  width: 100%;
+  height: 90%;
+}
+
+.creative-process .bottom img {
+  width: 100%;
+  height: 100%;
+}
+
+.collaborate {
+  background: #12524e;
+  
+  display: flex;
+          justify-content: space-between;
+  padding: 40px 60px;
+  border-radius: 20px;
+  margin: 150px 0;
+}
+
+.collaborate .left {
+  height: 180px;
+  
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.collaborate .left h1 {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+.collaborate .left p {
+  color: #fff;
+  line-height: 2;
+}
+
+.collaborate .right {
+  width: 200px;
+  
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.collaborate .right button {
+  width: 150px;
+  height: 60px;
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+}
+
+.collaborate .right button:nth-of-type(1) {
+  color: #1C7671;
+  background: #fff;
+}
+
+.collaborate .right button:nth-of-type(2) {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+footer {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  font-size: 20px;
+  border-top: solid 2px #1C7671;
+  position: relative;
+  margin-top: 20px;
+}
+
+footer a {
+  /* padding: 10px 20px; */
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: #1C7671;
+  position: absolute;
+  right: 0;
+  top: -65px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* ======================= */
+.contact-wrapper
+{
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.349);
+  display: none;
+}
+.contact-wrapper section
+{
+  background-color: #fff;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 90vh;
+  display: flex;
+  position: relative;
+}
+.contact-wrapper .close
+{
+  width: 50px;
+  height: 50px;
+  background: #1C7671;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  z-index: 22;
+}
+
+.contact-wrapper .left
+{
+  width: 50%;
+  height: 100%;
+}
+.contact-wrapper .left img
+{
+  width: 100%;
+  height: 100%;
+}
+.contact-wrapper .right
+{
+  width: 50%;
+  height: 100%;
+}
+.contact-wrapper .right h1
+{
+  color: #12524e;
+  text-align: right;
+  width: fit-content;
+  font-size: 1.8rem;
+}
+
+.contact-wrapper .right
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-wrapper .right form div
+{
+  display: flex;
+  flex-direction: column;
+}
+.contact-wrapper .right input
+{
+  width: 300px;
+  height: 40px;
+  padding-left: 6px;
+  color: #686868;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #7c7c7c;
+  border-radius: 5px;
+}
+.contact-wrapper .right label
+{
+  line-height: 3;
+  color: #12524e;
+}
+
+
+.contact-wrapper .right div button
+{
+  border: none;
+  background: #1C7671;
+  color: #fff;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+
+.contact-wrapper .right textarea
+{
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  resize: none;
+  font-size: 16px;
+  color: #333;
+  padding-left: 5px;
+  padding-top: 5px;
+  border: 1px solid #7c7c7c;
+  border-radius: 5px;
+}
+/* ================ */
+.location-wrapper
+{
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.349);
+}
+
+.location-wrapper section
+{
+  background-color: #fff;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 90vh;
+  display: flex;
+  position: relative;
+}
+.location-wrapper .left
+{
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+.location-wrapper .left h1
+{
+  font-size: 2rem;
+  text-align: center;
+  color: #12524e;
+  margin: 20px 0;
+}
+.location-wrapper .left .info
+{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.location-wrapper .left .info h1
+{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 3;
+  text-align: left;
+}
+.location-wrapper .left .info h1 i
+{
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 50px;
+  color: #2d9b95;
+}
+
+.location-wrapper section .close
+{
+  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #1C7671;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  z-index: 33;
+  align-items: center;
+  justify-content: center;
+}
+.location-wrapper .left .agencies 
+{
+  margin-top: 80px;
+
+}
+.location-wrapper .left .agencies .box
+{
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #1C7671;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.location-wrapper .left .agencies .wrp
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/*====================  */
+.location-wrapper .right
+{
+  width: 50%;
+  height: 100vh;
+}
+
+.location-wrapper .left h2
+{
+  font-weight: 300;
+}
+.location-wrapper .right iframe
+{
+  width: 100%;
+  height: 100%;
+}
+
+.location-wrapper .left .agencies .location-active
+{
+  border: solid 2px #1C7671;
+  color: #1C7671;
+  background: transparent;
+}
+
